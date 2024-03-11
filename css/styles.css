@@ -56,6 +56,14 @@ a {
     color: var(--link-active);
   }
 
+  .home-link {
+    text-decoration-line: none;
+  }
+
+  .home-link:hover {
+    text-decoration-line: underline;
+  }
+  
   .button, button {
     /* overwrites browser defaults and resets the border */
     border: none;
